@@ -43,8 +43,8 @@ export default class Slide {
   }
 
   init() {
-    this.addSlideEvents();
     this.bindEvents();
+    this.addSlideEvents();
     return this;
   }
 }
